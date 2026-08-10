@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enterprise MCP 202: Data MCP Principles</title>
+  <style>
+    :root { --ink:#111010; --muted:#52525b; --rule:#d4d4d0; --accent:#0f8c7a; --soft:#f4f4f2; --paper:#fbfbfa; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:18px/1.6 system-ui,sans-serif; }
+    main { max-width:960px; margin:0 auto; padding:48px 24px 80px; }
+    header { margin-bottom:40px; padding-bottom:24px; border-bottom:1px solid var(--rule); }
+    p { color:var(--muted); }
+    .eyebrow { margin:0 0 8px; color:var(--accent); font-size:13px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { margin:0; font:700 2rem/1.2 Georgia,serif; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:20px; }
+    a { display:flex; min-height:220px; flex-direction:column; gap:8px; padding:24px; color:inherit; text-decoration:none; background:var(--soft); border:1px solid var(--rule); border-radius:8px; }
+    a:hover { border-color:var(--accent); transform:translateY(-2px); }
+    .kicker,.meta { color:var(--muted); font-size:13px; } .kicker { font-weight:700; letter-spacing:.07em; text-transform:uppercase; } .meta { margin-top:auto; }
+    h2 { margin:0; font:600 1.2rem/1.3 Georgia,serif; }
+    footer { margin-top:64px; padding-top:24px; border-top:1px solid var(--rule); color:var(--muted); font-size:13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Internal review</p>
+      <h1>Enterprise MCP 202: Data MCP Principles</h1>
+      <p>Two lab guides for diagnosing raw warehouse access, building a Data MCP, and measuring the difference.</p>
+    </header>
+    <section class="grid" aria-label="Lab guides">
+      <a href="./mcp-202-1-observe-diagnose.html"><span class="kicker">Lab 1 of 2 · Intermediate</span><h2>Diagnose what raw warehouse access costs you</h2><span class="meta">35 minutes</span></a>
+      <a href="./mcp-202-2-build-measure.html"><span class="kicker">Lab 2 of 2 · Intermediate</span><h2>Build the Data MCP and measure the difference</h2><span class="meta">85 minutes</span></a>
+    </section>
+    <footer>Internal review preview</footer>
+  </main>
+</body>
+</html>
