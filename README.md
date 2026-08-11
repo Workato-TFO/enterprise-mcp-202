@@ -7,8 +7,8 @@ public and remains private until its promotion is approved.
 
 | Lab | Time |
 |---|---:|
-| Diagnose what raw warehouse access costs you | 35 minutes |
-| Build the Data MCP and measure the difference | 85 minutes |
+| Diagnose what raw warehouse access costs you | 45 minutes |
+| Build the Data MCP and measure the difference | 60 minutes |
 
 ## Visibility contract: designed public
 
